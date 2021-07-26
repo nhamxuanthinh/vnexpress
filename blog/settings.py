@@ -89,10 +89,10 @@ WSGI_APPLICATION = 'blog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'blog',
-        'USER': 'blogusr',
-        'PASSWORD': 'root',
-        'HOST': 'localhost',
+        'NAME': 'thinhnx-postgresql-1',
+        'USER': 'thinhnx@thinhnx-postgresql-1',
+        'PASSWORD': 'Ominext@123',
+        'HOST': 'thinhnx-postgresql-1.postgres.database.azure.com',
         'PORT': '5432',
     }
 }
