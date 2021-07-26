@@ -93,7 +93,6 @@ DATABASES = {
         'USER': 'thinhnx@thinhnx-postgresql-1',
         'PASSWORD': 'Ominext@123',
         'HOST': 'thinhnx-postgresql-1.postgres.database.azure.com',
-        'PORT': '5432',
     }
 }
 
