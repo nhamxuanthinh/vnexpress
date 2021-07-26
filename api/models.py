@@ -14,6 +14,7 @@ class Author(models.Model):
         return self.name
 
 
+
 class Category(models.Model):
     name = models.CharField(max_length=250, blank=False)
     description = models.CharField(max_length=250)
